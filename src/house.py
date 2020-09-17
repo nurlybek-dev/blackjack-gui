@@ -2,8 +2,8 @@ from .generic_player import GenericPlayer
 
 
 class House(GenericPlayer):
-    def __init__(self, name):
-        super(House, self).__init__(name)
+    def __init__(self, pos):
+        super(House, self).__init__('House', pos)
 
     def is_hitting(self):
         return self.total() <= 16

@@ -16,7 +16,7 @@ class Button(object):
     def process_kwargs(self, kwargs):
         settings = {
             "text": None,
-            "font": pygame.font.Font(None, 16),
+            "font": pygame.font.Font(None, 32),
             "call_on_release": True,
             "hover_color": None,
             "clicked_color": None,
